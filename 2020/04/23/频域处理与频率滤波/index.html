@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="en">
+<html class="theme-next gemini use-motion" lang="en">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -83,7 +83,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="频域处理与频率滤波">
 <meta property="og:url" content="http://yoursite.com/2020/04/23/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="ryx&#39;s blog">
 <meta property="og:description" content="频域处理二维DFT12345678910f&#x3D;imread(&#39;C:\Users\HP\Desktop\ImageDatabase\dipum_images_ch04\Fig0403(a)(image).tif&#39;);figure,imshow(f);F&#x3D;fft2(f)figure,imshow(abs(F),[])Fc&#x3D;fftshift(F)%中心化figure,imshow(abs(Fc),[])f">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://yoursite.com/images/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/image-20200422215336399.png">
@@ -127,8 +127,8 @@
 <meta property="og:image" content="http://yoursite.com/images/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/image-20200423011121141.png">
 <meta property="og:image" content="http://yoursite.com/images/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/image-20200423011053633.png">
 <meta property="article:published_time" content="2020-04-22T17:16:13.102Z">
-<meta property="article:modified_time" content="2020-04-29T15:43:26.774Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:modified_time" content="2020-04-29T16:40:46.212Z">
+<meta property="article:author" content="ryx">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://yoursite.com/images/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/image-20200422215336399.png">
 
@@ -138,7 +138,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -166,7 +166,7 @@
 
 
 
-  <title>频域处理与频率滤波 | Hexo</title>
+  <title>频域处理与频率滤波 | ryx's blog</title>
   
 
 
@@ -196,12 +196,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">ryx's blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">what a coincidence</p>
       
   </div>
 
@@ -231,12 +231,52 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/about/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/%20" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-favorite">
+          <a href="/favorite/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-fa-star"></i> <br />
+            
+            favorite
           </a>
         </li>
       
@@ -276,13 +316,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/23/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="name" content="ryx">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="ryx's blog">
     </span>
 
     
@@ -345,14 +385,15 @@
 <p><img src="/images/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/image-20200422215336399.png" alt="image-20200422215336399" style="zoom:50%;" /><img src="/images/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/image-20200422215357520.png" alt="image-20200422215357520" style="zoom:50%;" /></p>
 <p>频谱居中及其对数放大，相角</p>
 <p><img src="/images/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/image-20200422215420505.png" alt="image-20200422215420505" style="zoom:50%;" /><img src="/images/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/image-20200422215434693.png" alt="image-20200422215434693" style="zoom: 50%;" /><img src="/images/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/image-20200422215449459-1588174109501.png" alt="image-20200422215449459" style="zoom:50%;" /></p>
-<h5 id="频域滤波："><a href="#频域滤波：" class="headerlink" title="频域滤波："></a>频域滤波：</h5><h6 id="未填充："><a href="#未填充：" class="headerlink" title="未填充："></a>未填充：</h6><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">f=imread(<span class="string">'C:\Users\HP\Desktop\ImageDatabase\dipum_images_ch04\Fig0405(a)(square_original).tif'</span>);</span><br><span class="line"><span class="built_in">figure</span>,imshow(f);</span><br><span class="line">[M,N]=<span class="built_in">size</span>(f);</span><br><span class="line">F=fft2(f);</span><br><span class="line"><span class="built_in">figure</span>,imshow(<span class="built_in">log</span>(<span class="number">1</span>+<span class="built_in">abs</span>(fftshift(F)),[]);</span><br><span class="line">sig=<span class="number">10</span>;</span><br><span class="line">H=lpfilter(<span class="string">'gaussian'</span>,M,N,sig);</span><br><span class="line"><span class="built_in">figure</span>,imshow(<span class="built_in">abs</span>(fftshift(H)),[]);<span class="comment">%对数放大</span></span><br><span class="line">G=H.*F;</span><br><span class="line">g=ifft2(G);</span><br><span class="line"><span class="built_in">figure</span>,imshow(g,[])</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<h5 id="频域滤波"><a href="#频域滤波" class="headerlink" title="频域滤波"></a>频域滤波</h5><h6 id="未填充"><a href="#未填充" class="headerlink" title="未填充"></a>未填充</h6><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">f=imread(<span class="string">'C:\Users\HP\Desktop\ImageDatabase\dipum_images_ch04\Fig0405(a)(square_original).tif'</span>);</span><br><span class="line"><span class="built_in">figure</span>,imshow(f);</span><br><span class="line">[M,N]=<span class="built_in">size</span>(f);</span><br><span class="line">F=fft2(f);</span><br><span class="line"><span class="built_in">figure</span>,imshow(<span class="built_in">log</span>(<span class="number">1</span>+<span class="built_in">abs</span>(fftshift(F)),[]);</span><br><span class="line">sig=<span class="number">10</span>;</span><br><span class="line">H=lpfilter(<span class="string">'gaussian'</span>,M,N,sig);</span><br><span class="line"><span class="built_in">figure</span>,imshow(<span class="built_in">abs</span>(fftshift(H)),[]);<span class="comment">%对数放大</span></span><br><span class="line">G=H.*F;</span><br><span class="line">g=ifft2(G);</span><br><span class="line"><span class="built_in">figure</span>,imshow(g,[])</span><br></pre></td></tr></table></figure>
 <p>原图及其傅里叶变换：</p>
 <p><img src="/images/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/image-20200422221855557.png" alt="image-20200422221855557" style="zoom:80%;" /><img src="/images/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/image-20200422222633292.png" alt="image-20200422222633292" style="zoom:80%;" /></p>
 <p>高斯滤波器：</p>
 <p><img src="/images/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/image-20200422222705552.png" alt="image-20200422222705552" style="zoom:80%;" /></p>
 <p>滤波结果：左右边缘并没有计算到</p>
 <p><img src="/images/%E9%A2%91%E5%9F%9F%E5%A4%84%E7%90%86%E4%B8%8E%E9%A2%91%E7%8E%87%E6%BB%A4%E6%B3%A2/image-20200422222719660.png" alt="image-20200422222719660" style="zoom:80%;" /></p>
-<h6 id="有填充："><a href="#有填充：" class="headerlink" title="有填充："></a>有填充：</h6><p>填充函数：</p>
+<h6 id="有填充"><a href="#有填充" class="headerlink" title="有填充"></a>有填充</h6><p>填充函数：</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">PQ</span> = <span class="title">paddedsize</span><span class="params">(AB, CD, PARAM)</span></span></span><br><span class="line"><span class="comment">%PADDEDSIZE Computes padded sizes useful for FFT-based filtering. </span></span><br><span class="line"><span class="comment">%   PQ = PADDEDSIZE(AB), where AB is a two-element size vector,</span></span><br><span class="line"><span class="comment">%   computes the two-element size vector PQ = 2*AB.</span></span><br><span class="line"><span class="comment">%</span></span><br><span class="line"><span class="comment">%   PQ = PADDEDSIZE(AB, 'PWR2') computes the vector PQ such that</span></span><br><span class="line"><span class="comment">%   PQ(1) = PQ(2) = 2^nextpow2(2*m), where m is MAX(AB).</span></span><br><span class="line"><span class="comment">%</span></span><br><span class="line"><span class="comment">%   PQ = PADDEDSIZE(AB, CD), where AB and CD are two-element size</span></span><br><span class="line"><span class="comment">%   vectors, computes the two-element size vector PQ.  The elements</span></span><br><span class="line"><span class="comment">%   of PQ are the smallest even integers greater than or equal to </span></span><br><span class="line"><span class="comment">%   AB + CD - 1.</span></span><br><span class="line"><span class="comment">%</span></span><br><span class="line"><span class="comment">%   PQ = PADDEDSIZE(AB, CD, 'PWR2') computes the vector PQ such that</span></span><br><span class="line"><span class="comment">%   PQ(1) = PQ(2) = 2^nextpow2(2*m), where m is MAX([AB CD]). </span></span><br><span class="line">    </span><br><span class="line"><span class="comment">%   Copyright 2002-2004 R. C. Gonzalez, R. E. Woods, &amp; S. L. Eddins</span></span><br><span class="line"><span class="comment">%   Digital Image Processing Using MATLAB, Prentice-Hall, 2004</span></span><br><span class="line"><span class="comment">%   $Revision: 1.5 $  $Date: 2003/08/25 14:28:22 $</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> nargin == <span class="number">1</span></span><br><span class="line">   PQ  = <span class="number">2</span>*AB;</span><br><span class="line"><span class="keyword">elseif</span> nargin == <span class="number">2</span> &amp; ~ischar(CD)</span><br><span class="line">   PQ = AB + CD - <span class="number">1</span>;</span><br><span class="line">   PQ = <span class="number">2</span> * <span class="built_in">ceil</span>(PQ / <span class="number">2</span>);</span><br><span class="line"><span class="keyword">elseif</span> nargin == <span class="number">2</span></span><br><span class="line">   m = <span class="built_in">max</span>(AB); <span class="comment">% Maximum dimension.</span></span><br><span class="line">   </span><br><span class="line">   <span class="comment">% Find power-of-2 at least twice m.</span></span><br><span class="line">   P = <span class="number">2</span>^<span class="built_in">nextpow2</span>(<span class="number">2</span>*m);</span><br><span class="line">   PQ = [P, P];</span><br><span class="line"><span class="keyword">elseif</span> nargin == <span class="number">3</span></span><br><span class="line">   m = <span class="built_in">max</span>([AB CD]); <span class="comment">% Maximum dimension.</span></span><br><span class="line">   P = <span class="number">2</span>^<span class="built_in">nextpow2</span>(<span class="number">2</span>*m);</span><br><span class="line">   PQ = [P, P];</span><br><span class="line"><span class="keyword">else</span> </span><br><span class="line">   error(<span class="string">'Wrong number of inputs.'</span>)</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">f=imread(<span class="string">'C:\Users\HP\Desktop\ImageDatabase\dipum_images_ch04\Fig0405(a)(square_original).tif'</span>);</span><br><span class="line"><span class="built_in">figure</span>,imshow(f);</span><br><span class="line">[M,N]=<span class="built_in">size</span>(f);</span><br><span class="line">PQ=paddedsize(<span class="built_in">size</span>(f));</span><br><span class="line">Fp=fft2(f,PQ(<span class="number">1</span>),PQ(<span class="number">2</span>));</span><br><span class="line">sig=<span class="number">10</span>;</span><br><span class="line">Hp=lpfilter(<span class="string">'gaussian'</span>,PQ(<span class="number">1</span>),PQ(<span class="number">2</span>),<span class="number">2</span>*sig);</span><br><span class="line"><span class="built_in">figure</span>,imshow(<span class="built_in">abs</span>(fftshift(Hp)),[]);</span><br><span class="line">Gp=Hp.*Fp</span><br><span class="line">gp=ifft2(Gp);</span><br><span class="line"><span class="built_in">figure</span>,imshow(gp,[])</span><br><span class="line">gpc=gp(<span class="number">1</span>:M,<span class="number">1</span>:N)</span><br><span class="line"><span class="built_in">figure</span>,imshow(gpc,[])</span><br></pre></td></tr></table></figure>
 <p>原图：</p>
@@ -431,8 +472,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2020/04/29/hello-world/" rel="prev" title="Hello World">
-                Hello World <i class="fa fa-chevron-right"></i>
+              <a href="/2020/04/29/%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC%E7%AE%80%E6%98%8E%E6%96%B9%E6%B3%95%EF%BC%9A%E5%85%83%E7%B4%A0%E6%96%B9%E6%B3%95%E5%92%8C%E7%9F%A9%E9%98%B5%E6%96%B9%E6%B3%95/" rel="prev" title="矩阵求导简明方法：元素方法和矩阵方法">
+                矩阵求导简明方法：元素方法和矩阵方法 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -499,8 +540,8 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">John Doe</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-author-name" itemprop="name">ryx</p>
+              <p class="site-description motion-element" itemprop="description">just for fun</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -510,7 +551,7 @@
               
                 <a href="/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -547,7 +588,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#频域处理"><span class="nav-number">1.</span> <span class="nav-text">频域处理</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#二维DFT"><span class="nav-number">1.1.</span> <span class="nav-text">二维DFT</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#频域滤波："><span class="nav-number">1.2.</span> <span class="nav-text">频域滤波：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#未填充："><span class="nav-number">1.2.1.</span> <span class="nav-text">未填充：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#有填充："><span class="nav-number">1.2.2.</span> <span class="nav-text">有填充：</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#从空域滤波器获得频域滤波器"><span class="nav-number">1.3.</span> <span class="nav-text">从空域滤波器获得频域滤波器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#在频域直接生成滤波器"><span class="nav-number">1.4.</span> <span class="nav-text">在频域直接生成滤波器</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#低通滤波器"><span class="nav-number">1.4.1.</span> <span class="nav-text">低通滤波器</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#高通滤波器："><span class="nav-number">1.4.2.</span> <span class="nav-text">高通滤波器：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#高频强调滤波："><span class="nav-number">1.4.3.</span> <span class="nav-text">高频强调滤波：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#选择性滤波"><span class="nav-number">1.4.4.</span> <span class="nav-text">选择性滤波</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#频域处理"><span class="nav-number">1.</span> <span class="nav-text">频域处理</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#二维DFT"><span class="nav-number">1.1.</span> <span class="nav-text">二维DFT</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#频域滤波"><span class="nav-number">1.2.</span> <span class="nav-text">频域滤波</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#未填充"><span class="nav-number">1.2.1.</span> <span class="nav-text">未填充</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#有填充"><span class="nav-number">1.2.2.</span> <span class="nav-text">有填充</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#从空域滤波器获得频域滤波器"><span class="nav-number">1.3.</span> <span class="nav-text">从空域滤波器获得频域滤波器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#在频域直接生成滤波器"><span class="nav-number">1.4.</span> <span class="nav-text">在频域直接生成滤波器</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#低通滤波器"><span class="nav-number">1.4.1.</span> <span class="nav-text">低通滤波器</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#高通滤波器："><span class="nav-number">1.4.2.</span> <span class="nav-text">高通滤波器：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#高频强调滤波："><span class="nav-number">1.4.3.</span> <span class="nav-text">高频强调滤波：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#选择性滤波"><span class="nav-number">1.4.4.</span> <span class="nav-text">选择性滤波</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
@@ -571,7 +612,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">ryx</span>
 
   
 </div>
@@ -585,7 +626,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 
@@ -636,6 +677,9 @@
 
 
 
+  
+  
+
 
 
 
@@ -672,6 +716,16 @@
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/canvas_lines.min.js"></script>
+  
+
 
   
 
@@ -684,6 +738,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
